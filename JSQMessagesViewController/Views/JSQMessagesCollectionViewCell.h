@@ -167,6 +167,8 @@
  */
 @property (weak, nonatomic, readonly) UITapGestureRecognizer *tapGestureRecognizer;
 
+@property (assign, nonatomic) UIEdgeInsets textViewFrameInsets;
+
 #pragma mark - Class methods
 
 /**

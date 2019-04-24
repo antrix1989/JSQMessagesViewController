@@ -324,4 +324,8 @@
  */
 - (void)didReceiveMenuWillHideNotification:(NSNotification *)notification;
 
+- (void)jsq_updateCollectionViewInsets;
+
+- (void)jsq_setCollectionViewInsetsTopValue:(CGFloat)top bottomValue:(CGFloat)bottom;
+
 @end
